@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-3</title>
+    <!--daisy UI CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://kit.fontawesome.com/1709d8b4c9.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+           
+            clifford: '#da373d',
+           'back-bg': 'rgb(171, 239, 95)',
+           'ip-back-bg': 'rgba(171, 239, 95, 0.5)',
+          
+        
+            
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+    <!--Header section-->
+    <header class="md:container md:mx-auto  ">
+        <nav>
+            
+            <div class="navbar">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h16M4 18h7" />
+                  </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a>Home</a></li>
+                      <li>
+                        <a>Services</a>
+                        
+                      </li>
+                      <li><a>Portfolio</a></li>
+                      <li> <a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-xl font-bold "><i class="fa-solid fa-arrow-right -rotate-45 bg-back-bg rounded-full"></i>Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                  
+                    <li>
+                        
+                        <li class="text-[#737373]"> <summary>Services</summary></li>
+    
+                    <li class="text-[#737373]"> <a >Portfolio</a></li>
+                    <li class="text-[#737373]"> <a>Blogs</a></li>
+                    <li class="text-[#737373]"><a>Contact Us</a></li>
+                    <li><a><i class="fa-solid fa-magnifying-glass py-2"></i></a></li>
+                    <li><a><i class="fa-solid fa-cart-shopping py-2 "></i></a></li>
+                    </li>
+                    
+                  
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn bg-back-bg font-bold">Book Consult <i class="-rotate-45 bg-black text-white rounded-full fa-solid fa-arrow-right"></i></a>
+                </div>
+              </div>
+
+             <!--banner section-->
+             <div class=" flex lg:justify-center">
+                <img src="assets/banner.png" alt="">
+             </div>
+             <!--Text section-->
+             <div class="text-center">
+                <h1 class="font-bold text-6xl pb-5">A barn house of this design has a striking appearance</h1>
+                <p class="text-[#494949] pb-5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                <button class=" btn rounded-full bg-ip-back-bg">View Details <i class="fa-solid fa-arrow-right bg-back-bg border rounded-full -rotate-45"></i></button>
+             </div>
+        </nav>
+        </header>
+        <!--Main section-->
+        <main class="py-24 bg-gray-100">
+            <div class="md:container md:mx-auto">
+                  <img src="assets/Vector.png" alt="">
+                  <button class="btn btn-outline"><i class="fa-solid fa-arrow-right  rounded-full "></i>About Us</button>
+            </div>
+        </main>
+</body>
+</html>
